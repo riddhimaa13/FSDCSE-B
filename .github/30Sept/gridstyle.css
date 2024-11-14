@@ -1,0 +1,31 @@
+body{
+    background-color: bisque;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    height: 300px;
+    /* width: 500px; */
+    gap:10px;
+    border: 2px red dotted;
+
+
+}
+
+
+.row1, .row2, .row3{
+    border: 1px dotted black;
+}
+.row1{
+
+    grid-column: 3/7;
+    grid-row: 1/2;
+    background-color: chartreuse;
+
+}
+
+.row1col1, .row1col2, .row1col3,.row1col4{
+    height: 70px;
+    border: 1px solid red;
+}
