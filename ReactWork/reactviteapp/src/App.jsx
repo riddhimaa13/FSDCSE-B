@@ -4,6 +4,7 @@ import UseStudentState from './UseStudentState';
 import ImageManipulation from './ImageManipulation';
 import MyUseEffect from './MyUseEffect';
 import UsefetchAPI from './UsefetchAPI';
+import Login from './Login';
 
 function App() {
 
@@ -22,7 +23,8 @@ function App() {
         {/* <ImageManipulation> */}
         {/* </ImageManipulation> */}
       {/* <MyUseEffect></MyUseEffect> */}
-        <UsefetchAPI></UsefetchAPI>
+        {/* <UsefetchAPI></UsefetchAPI> */}
+        <Login/>
 
 
       </div>
